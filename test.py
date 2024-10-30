@@ -16,7 +16,7 @@ a = a - b
 print(a)
 print(b)
 
-
+print(test)
 def new():
     try:
         h = 7/0
