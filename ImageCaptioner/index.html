@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision to Words</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vision to Words</h1>
+        <p>Upload an image to generate a caption</p>
+    </header>
+    
+    <div class="container">
+        <form id="imageForm">
+            <label for="imageInput" class="custom-file-upload">
+                Choose File
+            </label>
+            <input type="file" id="imageInput" accept="image/*">
+            <div class="button-container">
+            <button type="submit">Generate Caption</button>
+            </div>
+        </form>
+        <h2 id="title"></h2>
+        <p id="description"></p>
+        <img id="imageDisplay" src="" alt="Selected Image" class="hidden">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 || Adarsh Jaiswal || All Rights Reserved.</p>
+    </footer>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

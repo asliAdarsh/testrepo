@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Dark background */
+    color: #f4f4f4; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #444; /* Darker header */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Size of the heading */
+    color: #ffffff; /* White text color for contrast */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /* Soft shadow for depth */
+    letter-spacing: 1px; /* Slight space between letters */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #dddddd; 
+}
+
+.container {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px auto;
+    background: linear-gradient(135deg, #555, #444); /* Gradient background */
+    border: 2px solid #007bff; /* Stylish border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items */
+    margin-bottom: 20px;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.custom-file-upload:hover {
+    background-color: #0056b3;
+}
+
+input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increased font size */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #444; /* Dark footer */
+    padding: 10px;
+    text-align: center;
+}
